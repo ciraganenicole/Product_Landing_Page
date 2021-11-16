@@ -1,142 +1,140 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css"/>
-      <link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-  integrity="https://stock.adobe.com/images/music-notes-icons-set-black-notes-symbol-on-white-background-stock-vector/302498000?prev_url=detail"
-  crossorigin="anonymous"
-/>
-    </head>
-    <body>
-        
-<div id="page-wrapper">
-  <header id="header">
-    <div class="logo">
-      <img
-        id="header-img"
-        src="product-landing-page-logo.png"
-        alt="World of Dance logo"
-      />
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+  <div id="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="product-landing-page-logo.png" alt="World of Dance logo" />
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container"></div>
+
+    <section id="hero">
+      <h2>Original choreographies and authenticity</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+    </section>
+
+    <div class="container">
+      <section id="features">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+          <div class="desc">
+            <h2>Technique</h2>
+            <p>
+              The technique is the basis of all the fundamentals of dance, to hold your body correctly while playing,
+              to correctly perform the skills in a routine. World of Dance offers you techniques that allow
+              you to put your body correctly and in harmony with your movements.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div class="desc">
+            <h2>Choreography</h2>
+            <p>
+              In dance, choreography is the act of conceiving the dance; to have a good choreography is to have
+              victory in the dance. World of Dance offers you beautiful choreographies that change your life.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+          </div>
+          <div class="desc">
+            <h2>Creativity</h2>
+            <p>
+              Creative dance is a form of dance that combines movement and artistic expression, without
+              requiring extensive training. World of Dance offers you this in-depth t
+              raining and allows you to improve yourself even more.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/SNCQsu5uXbo" frameborder="0"
+          allowfullscreen></iframe>
+      </section>
+      <section id="pricing">
+        <div class="product" id="contemporary">
+          <div class="level">Contemporary Dance</div>
+          <h2>$600</h2>
+          <ol>
+            <li>Body movement</li>
+            <li>Flexibility</li>
+            <li>Emotion</li>
+            <li>Passion</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="hip hop">
+          <div class="level">Hip Hop Dance</div>
+          <h2>$900</h2>
+          <ol>
+            <li>Body movement</li>
+            <li>Break movement</li>
+            <li>Pace</li>
+            <li>Passion</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="street">
+          <div class="level">Street Dance</div>
+          <h2>$1200</h2>
+          <ol>
+            <li>Body movement</li>
+            <li>Teamwork</li>
+            <li>Performance</li>
+            <li>Passion</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2021, World of Dance</span>
+      </footer>
     </div>
-
-    <nav id="nav-bar">
-      <ul>
-        <li><a class="nav-link" href="#features">Features</a></li>
-        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-        <li><a class="nav-link" href="#pricing">Pricing</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="container"></div>
-
-  <section id="hero">
-    <h2>Original choreographies and authenticity</h2>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input
-        name="email"
-        id="email"
-        type="email"
-        placeholder="Enter your email address"
-        required
-      />
-      <input id="submit" type="submit" value="Get Started" class="btn" />
-    </form>
-  </section>
-
-  <div class="container">
-    <section id="features">
-      <div class="grid">
-        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
-        <div class="desc">
-          <h2>Technique</h2>
-          <p>
-            The technique is the basis of all the fundamentals of dance, to hold your body correctly while playing,
-            to correctly perform the skills in a routine. World of Dance offers you techniques that allow 
-            you to put your body correctly and in harmony with your movements.
-          </p>
-        </div>
-      </div>
-      <div class="grid">
-        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
-        <div class="desc">
-          <h2>Choreography</h2>
-          <p>
-            In dance, choreography is the act of conceiving the dance; to have a good choreography is to have 
-            victory in the dance. World of Dance offers you beautiful choreographies that change your life.
-          </p>
-        </div>
-      </div>
-      <div class="grid">
-        <div class="icon">
-          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
-        </div>
-        <div class="desc">
-          <h2>Creativity</h2>
-          <p>
-            Creative dance is a form of dance that combines movement and artistic expression, without 
-            requiring extensive training. World of Dance offers you this in-depth t
-            raining and allows you to improve yourself even more.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="how-it-works">
-      <iframe
-        id="video"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/SNCQsu5uXbo"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
-    </section>
-    <section id="pricing">
-      <div class="product" id="contemporary">
-        <div class="level">Contemporary Dance</div>
-        <h2>$600</h2>
-        <ol>
-          <li>Body movement</li>
-          <li>Flexibility</li>
-          <li>Emotion</li>
-          <li>Passion</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-      <div class="product" id="hip hop">
-        <div class="level">Hip Hop Dance</div>
-        <h2>$900</h2>
-        <ol>
-          <li>Body movement</li>
-          <li>Break movement</li>
-          <li>Pace</li>
-          <li>Passion</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-      <div class="product" id="street">
-        <div class="level">Street Dance</div>
-        <h2>$1200</h2>
-        <ol>
-          <li>Body movement</li>
-          <li>Teamwork</li>
-          <li>Performance</li>
-          <li>Passion</li>
-        </ol>
-        <button class="btn">Select</button>
-      </div>
-    </section>
-    <footer>
-      <ul>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <span>Copyright 2021, World of Dance</span>
-    </footer>
   </div>
-</div>
 
-    </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
